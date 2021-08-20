@@ -1,0 +1,107 @@
+.title {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 20;
+    color: var(--black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.8px;
+    color: var(--black);
+}
+
+/* h2+line=div */
+h2 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.72px;
+    color: var(--black);
+    margin-bottom: 12px;
+}
+
+.line {
+    width: 82px;
+    height: 2px;
+    background-color: var(--yellow);
+}
+
+h3 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.48px;
+    color: var(--black);
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black);
+    letter-spacing: 0.64px;
+    line-height: 28px;
+    text-transform: uppercase;     
+}
+
+h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--black);
+    letter-spacing: 0.56px;
+    line-height: 20px;
+    text-transform: uppercase;     
+}
+
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--darkGrey);
+    letter-spacing: 0.4px;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.linked-title {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 20;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.linked-title:hover {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 20;
+    color: var(--black);
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--black);
+    margin: 0;
+}

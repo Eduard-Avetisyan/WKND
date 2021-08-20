@@ -1,0 +1,272 @@
+.header {
+    width: 100%;
+}
+
+.nav-top {
+    width: 100%;
+    height: 40px;
+    background-color: var(--black);
+}
+
+.nav-top-main {
+    width: 1084px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    margin-right: 39px;
+}
+
+.account-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+}
+
+.account-content {
+    text-decoration: none;
+}
+
+.account-text {
+    font-size: 14px;
+}
+
+.lang-bar {
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.USA-flag-top {
+    width: 20px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+.go-icon {
+    width: 9px;
+    height: 7px;
+    margin-left: 10px;
+    
+}
+
+/* menuna sksum */
+
+.nav-menu {
+    width: 100%;
+    height: 160px;
+}
+
+.header-content {
+    width: 1084px;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo {
+    background-size: 87px 38px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    align-items: center;
+}
+
+.menu-content {
+    height: 48px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 20px 0 0;
+}
+
+.menu-text {
+    padding: 15px 20px 13px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--black);
+    margin-left: 12px;
+    letter-spacing: 40;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.menu-text:hover {
+    background-color: var(--yellow) ;
+}
+
+input {
+    height: 20px;
+    border: none;
+    background-color: var(--grey);
+}
+
+input::placeholder {
+    font-size: 14px;
+    color: var(--darkGrey);   
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="text"] {
+    width: calc(256px - 81px);
+    padding: 14px 61px 14px 20px;
+}
+
+.input {
+    width: 256px;
+    height: 48px;
+    position: relative;
+}
+
+.input img {
+    position: absolute;
+    right: 0;
+    padding: 14px 20px;
+}
+
+.burger {
+    display: none;
+    width: 32px;
+    height: 28px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.burger-row {
+    width: 100%;
+    height: 6px;
+    margin-bottom: 5px;
+    background-color: var(--black);
+    display: block;
+    border-radius: 3px;
+}
+
+.burger-row:last-child {
+    margin-bottom: 0;
+}
+
+.burger-btn {
+    width: 32px;
+    height: 28px;
+}
+
+.burger-block {
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+    top: 48px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 0;
+
+}
+
+.burger-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 180px;
+    height: 48px;
+    padding-right: 20px;
+    background-color: var(--black);
+    text-decoration: none;
+    color: var(--white);
+    
+}
+
+.burger-text:hover {
+    background-color: var(--darkBlack);
+}
+
+
+
+/* IMAGE VLOCK */
+
+.main-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header-image {
+    width: 100%;
+}
+
+.main-image-description {
+    width: 1084px;
+    background-color: var(--white);
+    padding: 24px 33px 20px 33px;
+    position: absolute;
+    bottom: 0;
+}
+
+.main-img-block-text {
+    margin-bottom: 20px;
+}
+
+.slide {
+    width: 1084px;
+    height: 32px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.slide-select {
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.slide-selector {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation {
+    margin-top: 12px;
+    position: absolute;
+    right: 6px;
+    cursor: pointer;
+}
+
+.slide-navigation {
+    height: 20px;
+}
+
+.row {
+    margin-right: 20px;
+}
+
+.around {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--grey);
+}
+
+.around1 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--black);
+    margin: 0 14px;
+}

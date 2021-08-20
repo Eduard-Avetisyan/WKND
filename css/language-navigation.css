@@ -1,0 +1,36 @@
+.lang-nav {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 45px;
+    z-index: 1200;
+}
+
+li {
+    list-style-type: none;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+    width: 348px;
+    height: 60px;
+    background-color: var(--black);
+    text-decoration: none;
+}
+
+.country:hover {
+    background-color: var(--darkBlack);
+}
+
+.lang-text {
+    color: var(--white);
+    padding-bottom: 2px;
+}
+
+.flag {
+    padding-left: 14px;
+    padding-right: 18px;
+}

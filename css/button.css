@@ -1,0 +1,134 @@
+
+.standart-btn {
+    display: block;
+    width: min-content;
+    white-space: nowrap;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 40;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 14px 40px;
+}
+
+.standart-btn:hover {
+    background-color: var(--darkBlack);
+}
+
+.standart-disable-btn {
+    display: block;
+    width: min-content;
+    white-space: nowrap;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 40;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--grey);
+    color: var(--white);
+    padding: 14px 40px;
+}
+
+.outline-btn {
+    display: block;
+    width: min-content;
+    white-space: nowrap;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 40;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--lightYellow);
+    color: var(--black);
+    padding: 14px 40px;
+}
+
+.outline-btn:hover {
+    background-color: var(--darkYellow);
+}
+
+.outline-disable-btn {
+    display: block;
+    width: min-content;
+    white-space: nowrap;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 40;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--lightGrey);
+    color: var(--grey);
+    padding: 14px 40px;
+}
+
+.icon-standart-btn {
+    display: block;
+    width: min-content;
+    white-space: nowrap;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 40;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 14px 40px;
+}
+
+.icon-standart-btn:hover {
+    background-color: var(--darkBlack);
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+}
+
+.icon-standart-disable-btn {
+    display: block;
+    width: min-content;
+    white-space: nowrap;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 40;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--grey);
+    color: var(--white);
+    padding: 14px 40px;
+}
+
+.icon-outline-btn {
+    display: block;
+    width: min-content;
+    white-space: nowrap;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 40;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--lightYellow);
+    color: var(--black);
+    padding: 14px 40px;
+}
+
+.icon-outline-btn:hover {
+    background-color: var(--darkYellow);
+}
+
+.icon-outline-disable-btn {
+    display: block;
+    width: min-content;
+    white-space: nowrap;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 40;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--lightGrey);
+    color: var(--grey);
+    padding: 14px 40px;
+}

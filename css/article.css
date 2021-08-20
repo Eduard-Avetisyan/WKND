@@ -1,0 +1,157 @@
+.articles {
+    width: 100%;
+    margin: 48px 0;
+}
+
+.article-content {
+    width: 1084px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles h6 {
+    margin-top: 9px;
+}
+
+.last-article {
+    width: 100%;
+    margin-top: 66px;
+    
+}
+
+.last-article-content {
+    width: 1084px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.article-description {
+    width: 368px;
+    height: 487px;
+    background-color: var(--lightGrey);
+    position: relative;
+   
+}
+
+.article-title {
+    margin: 20px 0 0 20px;
+}
+
+.article-main-title {
+    margin: 20px 0 0 20px;
+}
+
+
+.last-article p {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.article-text {
+    width: 328px;
+    height: 104px;
+    margin: 20px 0 0 20px;
+}
+
+.last-article a {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.sign-up {
+    width: 100%;
+    margin-top: 48px;
+}
+
+.sign-up p {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.sign-up-content {
+    width: 1084px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.sign-up-description {
+    width: 736px;
+    background-color: var(--lightGrey);
+}
+
+.sign-up-title {
+    margin: 24px 0 12px 40px;
+}
+
+.sign-up-text {
+    margin-left: 40px;
+}
+
+.sign-up-btn {
+    margin: 24px 0 24px 40px;
+}
+
+.sign-up-submit-btn {
+    width: 133px;
+    height: 48px;
+    border: none;
+    background-color: var(--black);
+    margin-left: 20px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+input[type="email"] {
+    width: 196px;
+    padding: 14px 20px;
+}
+
+.explore-all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.explore-all-btn {
+    width: 1084px;
+    margin-bottom: 48px;
+}
+
+.line2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 19px 0;
+}
+
+.main-line2 {
+    width: 1084px;
+    height: 2px;
+    background-color: var(--grey);
+}
+
+.recent-article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.recent-article-name {
+    width: 1084px;
+    padding-top: 48px;
+}
+
+.article-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.article-list-title {
+    width: 1084px;
+    padding-top: 48px;
+}

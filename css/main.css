@@ -1,0 +1,236 @@
+@import url(article.css);
+@import url(header.css);
+@import url(language-navigation.css);
+@import url(headingType.css);
+@import url(button.css);
+@import url(footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&family=Source+Serif+Pro&display=swap');
+
+:root {
+    --black: #202020;
+    --darkBlack: #000000;
+    --darkGrey: #909090;
+    --grey: #EBEBEB;
+    --lightGrey: #F7F7F7;
+    --white: #FFFFFF;
+    --yellow: #FFEA00;
+    --lightYellow: #FFEB00;
+    --darkYellow: #F5E200;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.none {
+    display: none;
+}
+
+
+
+/* *****************************  RESPONSIVE  ***************************** */
+
+
+
+@media (max-width: 1200px) {
+    .nav-top-main {
+        width: 940px;
+    }
+    .header-content {
+        width: 940px;
+    }
+    .menu-text {
+        padding: 15px 10px 13px 10px;
+        margin-left: 4px;
+    }
+    .main-img {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-image-description {
+        width: 940px;
+        position: relative;
+    }
+    .last-article-content {
+        width: 940px;
+    }
+    .recent-article-name {
+        width: 940px;
+    }
+    .article-content {
+        width: 940px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main-article {
+        margin-bottom: 20px;
+        
+    }
+    .article-list-title {
+        width: 940px;
+    }
+    .explore-all-btn {
+        width: 940px;
+    }
+    .main-line2 {
+        width: 940px;
+    }
+    .sign-up-content {
+        width: 940px;
+    }
+    .main-footer  {
+        width: 940px;
+    }
+   
+}
+
+@media (max-width: 992px) {
+    .nav-top-main {
+        width: 707px;
+    }
+    .header-content {
+        width: 707px;
+    }
+    .main-image-description {
+        width: 707px;
+    }
+    .last-article-content {
+        width: 707px;
+    }
+    .recent-article-name {
+        width: 707px;
+    }
+    .article-content {
+        width: 707px;
+    }
+    .article-list-title {
+        width: 707px;
+    }
+    .explore-all-btn {
+        width: 707px;
+    }
+    .main-line2 {
+        width: 707px;
+    }
+    .sign-up-content {
+        width: 707px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sign-up-img {
+        height: 414.44px;
+    }
+    .sign-up-img img {
+        width: 100%;
+    }
+    .sign-up-description {
+        width: auto;
+    }
+    .main-footer  {
+        width: 707px;
+    }
+    .footer-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-top-main {
+        width: 526px;
+    }
+    .header-content {
+        width: 526px;
+    }
+    .menu-content {
+        display: none;
+    }
+    .burger {
+        display: flex;
+    }
+    .main-image-description {
+        width: 526px;
+    }
+    .last-article-content {
+        width: 526px;
+    }
+    .recent-article-name {
+        width: 526px;
+    }
+    .article-content {
+        width: 526px;
+    }
+    .article-list-title {
+        width: 526px;
+    }
+    .explore-all-btn {
+        width: 526px;
+    }
+    .main-line2 {
+        width: 526px;
+    }
+    .sign-up-content {
+        width: 526px;
+    }
+    .sign-up-img {
+        height: auto;
+    }
+    .main-footer  {
+        width: 526px;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-top-main {
+        width: 320px;
+    }
+    .header-content {
+        width: 320px;
+        display: flex;
+    }
+    .header-content a {
+        height: 96px;
+    }
+    .menu {
+        height: 76px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .input {
+        margin-top: 20px;
+    }
+    .main-image-description {
+        width: 320px;
+    }
+    .last-article-content {
+        width: 320px;
+    }
+    .recent-article-name {
+        width: 320px;
+        display: flex;
+        justify-content: center;
+    }
+    .article-content {
+        width: 320px;
+        display: flex;
+        justify-content: center;
+    }
+    .article-list-title {
+        width: 320px;
+    }
+    .explore-all-btn {
+        width: 320px;
+    }
+    .main-line2 {
+        width: 320px;
+    }
+    .sign-up-content {
+        width: 320px;
+    }
+    .main-footer  {
+        width: 320px;
+    }
+}
